@@ -1,0 +1,25 @@
+.slider-container{
+    display: flex;
+    height: 600px;
+    width: 900px;
+    border: 1px solid black;
+    position: relative;
+    box-sizing: border-box;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow{
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border: 2px solid green;
+    padding: 5px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.arrow:hover{
+    background-color: green;
+}
